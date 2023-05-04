@@ -1,4 +1,4 @@
-import { Html, ContactShadows, Float, useGLTF, PresentationControls, Environment } from '@react-three/drei'
+import { Text, Html, ContactShadows, Float, useGLTF, PresentationControls, Environment } from '@react-three/drei'
 
 export default function Experience()
 {
@@ -42,6 +42,16 @@ export default function Experience()
                     <iframe src="https://bruno-simon.com/html/"></iframe>
                 </Html>    
             </primitive>
+            <Text
+                font="./bangers-v20-latin-regular.woff"
+                fontSize={0.8}
+                position={[2,0.55,0.2]}
+                rotation-y={-1.6}
+                maxWidth={2}
+                textAlign="center"
+            >
+                Niklas Ostwald
+            </Text>
         </Float  >
         </PresentationControls>
         <ContactShadows 
